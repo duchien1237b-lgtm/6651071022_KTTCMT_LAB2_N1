@@ -45,38 +45,42 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(300,140)" to="(360,140)"/>
-    <wire from="(240,130)" to="(270,130)"/>
-    <wire from="(60,170)" to="(250,170)"/>
-    <wire from="(250,150)" to="(250,170)"/>
-    <wire from="(240,120)" to="(240,130)"/>
+    <wire from="(60,200)" to="(250,200)"/>
+    <wire from="(70,110)" to="(160,110)"/>
+    <wire from="(70,130)" to="(160,130)"/>
+    <wire from="(240,140)" to="(300,140)"/>
+    <wire from="(70,130)" to="(70,140)"/>
+    <wire from="(250,160)" to="(250,200)"/>
+    <wire from="(330,150)" to="(380,150)"/>
+    <wire from="(250,160)" to="(300,160)"/>
+    <wire from="(70,90)" to="(70,110)"/>
+    <wire from="(60,90)" to="(70,90)"/>
+    <wire from="(60,140)" to="(70,140)"/>
+    <wire from="(240,120)" to="(240,140)"/>
     <wire from="(200,120)" to="(240,120)"/>
-    <wire from="(60,110)" to="(160,110)"/>
-    <wire from="(60,130)" to="(160,130)"/>
-    <wire from="(250,150)" to="(270,150)"/>
-    <comp lib="1" loc="(200,120)" name="XOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(212,238)" name="Text">
-      <a name="text" val="Nguyễn Đức Hiền_6651071022"/>
-    </comp>
-    <comp lib="0" loc="(60,110)" name="Pin">
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(60,130)" name="Pin">
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="0" loc="(60,170)" name="Pin">
-      <a name="label" val="C"/>
-    </comp>
-    <comp lib="0" loc="(360,140)" name="Pin">
+    <comp lib="0" loc="(380,150)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Y"/>
     </comp>
+    <comp lib="6" loc="(212,238)" name="Text">
+      <a name="text" val="Nguyễn Đức Hiền_6651071022"/>
+    </comp>
+    <comp lib="0" loc="(60,140)" name="Pin">
+      <a name="label" val="B"/>
+    </comp>
     <comp lib="6" loc="(172,73)" name="Text"/>
-    <comp lib="1" loc="(300,140)" name="AND Gate">
+    <comp lib="1" loc="(200,120)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(60,200)" name="Pin">
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="0" loc="(60,90)" name="Pin">
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="1" loc="(330,150)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
